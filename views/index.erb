@@ -1,0 +1,8 @@
+<h1>Buckets</h1>
+<ul>
+  <% @buckets.each do |b| %>
+    <li><a href='/bucket/<%= b.name %>'><%= b.name %></a> (<%= b.objects.length %> objects)</li>
+  <% end %>
+</ul>
+
+<h2><a href="/upload">Upload</a></h2>

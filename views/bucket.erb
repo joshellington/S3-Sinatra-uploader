@@ -1,0 +1,4 @@
+<h1>Bucket: <%= @bucket.name %> Objects</h1>
+<% @bucket.objects.each do |obj| %>
+  Object: <a href="https://s3.amazonaws.com/<%= @bucket.name %>/<%= obj.key %>"><%= obj.key %> <%= obj.about['content-length'] %> bytes</a><br/>
+<% end %>
