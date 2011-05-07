@@ -1,2 +1,3 @@
 A small experiment with the awx-s3 gem (http://amazon.rubyforge.org/).
-	App requires a 'keys.yml' file for access/secret keys.
+
+App requires a 'keys.yml' file for access/secret keys.
